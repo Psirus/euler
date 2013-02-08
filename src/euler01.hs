@@ -1,5 +1,5 @@
 -- Copyright (c) 2012, Christoph Pohl
--- BSD License (see http://www.opensource.org/licenses/bsd-license.php)
+-- BSD License (see http://www.opensource.org/licenses/BSD-3-Clause)
 -------------------------------------------------------------------------------
 -- 
 -- Project Euler Problem 1
@@ -12,7 +12,7 @@
 module Main where
 
 main :: IO()
-main = putStrLn (show result)
+main = print result
 
 multiples = [x | x <- [1..999],(x `mod` 3 == 0) || (x `mod` 5 == 0)]
 result = sum multiples
