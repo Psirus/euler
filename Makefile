@@ -1,5 +1,5 @@
 GHC = ghc
-GHCFLAGS = 
+GHCFLAGS = -O2 
 SRC = $(wildcard src/*.hs)
 BIN = $(patsubst src/%.hs,%,$(SRC))
 
