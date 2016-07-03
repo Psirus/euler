@@ -1,2 +1,4 @@
 bin/
 times.txt
+*.o
+*.hi
